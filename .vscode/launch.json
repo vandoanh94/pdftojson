@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations":[
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/pdftojon.py",
+            "args": [
+                "-i","input.pdf","-o", "output.txt"
+            ]
+        }
+    ],
+      
+}
