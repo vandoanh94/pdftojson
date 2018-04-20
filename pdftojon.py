@@ -75,7 +75,6 @@ def main(argv):
         # collecting all objects from the layout, 1 level depth
         objs = []
         for obj in layout:
-
             if isiterable(obj):
                 for element in obj:
                     objs.append(element)

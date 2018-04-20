@@ -7,7 +7,7 @@
             "request": "launch",
             "program": "${workspaceFolder}/pdftojon.py",
             "args": [
-                "-i","input.pdf","-o", "output.txt"
+                "-i","input.pdf","-o", "output.json"
             ]
         }
     ],
