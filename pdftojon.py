@@ -228,6 +228,7 @@ def main(argv):
         exp_dict['to_month'] = place[2]['to_month'].strip() if 'to_month' in place[2] else ''
         exp_dict['to_year'] = place[2]['to_year'].strip() if 'to_year' in place[2] else ''
         output_dict['experience'].append(exp_dict)
+        
     for place in get_education_info(ed):
         ed_dict = {'degree':'','school':'','major':'','from_month':'','from_year':'','to_month':'','to_year':''}
         ed_dict['degree'] = place[1].strip()
